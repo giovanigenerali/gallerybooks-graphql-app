@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  margin: 1rem;
+}
+
+table.books {
+  display: grid;
+  border-collapse: collapse;
+  min-width: 100%;
+  grid-template-columns: repeat(7, minmax(150px, 1fr));
+}
+
+table.books thead,
+table.books tbody,
+table.books tr {
+  display: contents;
+}
+
+table.books th,
+table.books td {
+  padding: 0.5rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+table.books th {
+  position: sticky;
+  top: 0;
+  background: #98ca3f;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: white;
+  position: relative;
+}
+
+table.books th:last-child {
+  border: 0;
+}
+
+table.books td {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #333;
+}
+
+table.books tr:nth-child(even) td {
+  background: #e6f1d2;
+}

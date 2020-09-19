@@ -1,0 +1,9 @@
+[build]
+  base = ""
+  publish = "build/"
+  command = "cat .env.production | sed 's/^/export /' && ENV_SILENT=true npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
