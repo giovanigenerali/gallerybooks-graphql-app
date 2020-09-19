@@ -53,10 +53,6 @@ function App() {
       ? updatedBooks[book.id].likes
       : book.likes;
 
-  if (error) {
-    return <div>Erro</div>;
-  }
-
   return (
     <>
       <h1>Books</h1>
