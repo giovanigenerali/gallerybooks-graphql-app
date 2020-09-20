@@ -7,7 +7,7 @@
 
 https://gallerybooks-graphql-app.netlify.app
 
-![Screenshot from 2020-09-19 15-59-40](https://user-images.githubusercontent.com/41435/93687065-34b99180-fa91-11ea-8871-f874dd4518da.png)
+![Screenshot from 2020-09-19 23-55-26](https://user-images.githubusercontent.com/41435/93693239-a61a3400-fad3-11ea-83af-2cc880d2ad34.png)
 
 # Tecnologies
 
