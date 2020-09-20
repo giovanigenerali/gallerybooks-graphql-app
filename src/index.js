@@ -8,7 +8,7 @@ import {
 } from "urql";
 import { SubscriptionClient } from "subscriptions-transport-ws";
 
-import "./index.css";
+import "./styles/tailwind.css";
 
 import App from "./App";
 

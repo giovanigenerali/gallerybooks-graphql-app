@@ -10,12 +10,14 @@
     "graphql": "^15.3.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-rating-stars-component": "^2.2.0",
     "react-scripts": "3.4.3",
     "subscriptions-transport-ws": "^0.9.18",
     "urql": "^1.10.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "build:style": "tailwind build src/styles/index.css -o src/styles/tailwind.css",
+    "start": "yarn build:style && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -34,5 +36,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.0",
+    "postcss-cli": "^7.1.2",
+    "tailwindcss": "^1.8.10"
   }
 }
