@@ -1,4 +1,4 @@
-# 📚 Gallery Book using GraphQL
+# 📚 Gallery Books using GraphQL
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg?style=for-the-badge)](https://github.com/giovanigenerali/gallerybooks-graphql-app/pulls)
 [![GitHub license](https://img.shields.io/github/license/giovanigenerali/gallerybooks-graphql-app?style=for-the-badge)](https://github.com/giovanigenerali/gallerybooks-graphql-app/blob/master/LICENSE)
